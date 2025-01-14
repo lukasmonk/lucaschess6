@@ -1,0 +1,139 @@
+2024-12-11 23:54:01.838260
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\LucasR.py", line 20, in <module>
+    Code.Base.Init.init()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Base\Init.py", line 18, in init
+    resp = LucasChessGui.run_gui(main_procesador)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\LucasChessGui.py", line 133, in run_gui
+    procesador.iniciar_gui()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Procesador.py", line 181, in iniciar_gui
+    self.main_window = MainWindow.MainWindow(self)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 28, in __init__
+    self.base = WBase.WBase(self, manager)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\WBase.py", line 85, in __init__
+    self.create_toolbar()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\WBase.py", line 138, in create_toolbar
+    action = QtGui.QAction(titulo, self.tb)
+             ^^^^^
+NameError: name 'QtGui' is not defined
+2024-12-12 00:15:57.351346
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\AppData\Local\Programs\PyCharm Community\plugins\python-ce\helpers\pydev\pydevd.py", line 1570, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\AppData\Local\Programs\PyCharm Community\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\LucasR.py", line 20, in <module>
+    Code.Base.Init.init()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Base\Init.py", line 18, in init
+    resp = LucasChessGui.run_gui(main_procesador)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\LucasChessGui.py", line 133, in run_gui
+    procesador.iniciar_gui()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Procesador.py", line 181, in iniciar_gui
+    self.main_window = MainWindow.MainWindow(self)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 28, in __init__
+    self.base = WBase.WBase(self, manager)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\WBase.py", line 85, in __init__
+    self.create_toolbar()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\WBase.py", line 138, in create_toolbar
+    action = QtGui.QAction(titulo, self.tb)
+             ^^^^^
+NameError: name 'QtGui' is not defined
+2024-12-12 00:17:08.511907
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\LucasR.py", line 20, in <module>
+    Code.Base.Init.init()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Base\Init.py", line 18, in init
+    resp = LucasChessGui.run_gui(main_procesador)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\LucasChessGui.py", line 133, in run_gui
+    procesador.iniciar_gui()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Procesador.py", line 181, in iniciar_gui
+    self.main_window = MainWindow.MainWindow(self)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 28, in __init__
+    self.base = WBase.WBase(self, manager)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\WBase.py", line 85, in __init__
+    self.create_toolbar()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\WBase.py", line 138, in create_toolbar
+    action = QtGui.QAction(titulo, self.tb)
+             ^^^^^
+NameError: name 'QtGui' is not defined
+2024-12-13 22:51:56.377581
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\LucasR.py", line 19, in <module>
+    Code.Base.Init.init()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Base\Init.py", line 21, in init
+    resp = LucasChessGui.run_gui(main_procesador)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\LucasChessGui.py", line 133, in run_gui
+    procesador.iniciar_gui()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Procesador.py", line 181, in iniciar_gui
+    self.main_window = MainWindow.MainWindow(self)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 43, in __init__
+    self.cursorthinking = QCursor(
+                          ^^^^^^^
+NameError: name 'QCursor' is not defined
+2024-12-13 22:52:11.091906
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\LucasR.py", line 19, in <module>
+    Code.Base.Init.init()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Base\Init.py", line 21, in init
+    resp = LucasChessGui.run_gui(main_procesador)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\LucasChessGui.py", line 133, in run_gui
+    procesador.iniciar_gui()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Procesador.py", line 181, in iniciar_gui
+    self.main_window = MainWindow.MainWindow(self)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 43, in __init__
+    self.cursorthinking = QCursor(
+                          ^^^^^^^
+NameError: name 'QCursor' is not defined
+2024-12-13 22:53:30.937250
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\LucasR.py", line 19, in <module>
+    Code.Base.Init.init()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Base\Init.py", line 21, in init
+    resp = LucasChessGui.run_gui(main_procesador)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\LucasChessGui.py", line 133, in run_gui
+    procesador.iniciar_gui()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Procesador.py", line 181, in iniciar_gui
+    self.main_window = MainWindow.MainWindow(self)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 43, in __init__
+    self.cursorthinking = QCursor(
+                          ^^^^^^^
+NameError: name 'QCursor' is not defined
+2024-12-13 23:02:49.593114
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Board\Board.py", line 1271, in mouseReleaseEvent
+    QtWidgets.QGraphicsView.mouseReleaseEvent(self, event)
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Board\BoardElements.py", line 348, in mouseReleaseEvent
+    self.board.try_to_move(self, event.scenePos(), event.button())
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Board\Board.py", line 1851, in try_to_move
+    pieza_sc.rehazPosicion()
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\Board\BoardElements.py", line 298, in rehazPosicion
+    self.setPos(physical_pos.x, physical_pos.y)
+RuntimeError: Error calling Python override of QGraphicsItem::mouseReleaseEvent(): Internal C++ object (PiezaSC) already deleted.
+2024-12-13 23:23:17.665705
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 199, in changeEvent
+    def changeEvent(self, event):
+
+KeyboardInterrupt
+2024-12-14 15:51:49.475631
+Traceback (most recent call last):
+  File "C:\Users\CFO Tech\source\repos\lucaschess\lucaschessR6\bin\Code\MainWindow\MainWindow.py", line 199, in changeEvent
+    def changeEvent(self, event):
+
+KeyboardInterrupt
